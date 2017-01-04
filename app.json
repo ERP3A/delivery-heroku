@@ -1,6 +1,8 @@
 {
   "name": "delivery-heroku",
-  "scripts": {},
+  "scripts": {
+    "psotdeploy": "php artisan migrate --seed"
+  },
   "env": {
     "APP_DEBUG": {
       "required": true
