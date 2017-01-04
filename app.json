@@ -1,7 +1,7 @@
 {
   "name": "delivery-heroku",
   "scripts": {
-    "psotdeploy": "php artisan migrate --seed"
+    "psotdeploy": "composer update && php artisan migrate --seed"
   },
   "env": {
     "APP_DEBUG": {
