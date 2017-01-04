@@ -14,7 +14,7 @@
                     class="form-group"
                     :class="{ 'has-error': errors['name'] }">
                     <label class="control-label" for="name">
-                        Name
+                        Nome
                     </label>
 
                     <input

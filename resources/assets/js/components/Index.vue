@@ -14,7 +14,7 @@
 
         <div class="col-md-5">
             <div class="dropdown form-inline pull-right">
-                <label>Per Page:</label>
+                <label>Por página:</label>
 
                 <select class="form-control" v-model="perPage">
                     <option value=10>10</option>
