@@ -1,6 +1,8 @@
 {
   "name": "delivery-heroku",
   "scripts": {
+
+    "psotdeploy": "composer update && php artisan migrate --seed"
   },
   "env": {
     "APP_DEBUG": {
@@ -16,8 +18,7 @@
       "required": true
     }
   },
-  "formation": {
-  },
+  "formation": {},
   "addons": [
     "cleardb",
     "papertrail"
